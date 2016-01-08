@@ -19,4 +19,5 @@ for i in phones:
 	if same_digit is False and consecutive is False and digit_sum % 2 == 0:
 		count += 1
 
+reader.close()
 print count
